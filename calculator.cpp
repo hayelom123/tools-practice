@@ -6,12 +6,13 @@ int main(){
 /*
 Group 4
 members name 	               ID
-1.Hayelom Kiros		          0609/10
-2. Kaleab Daniel	          0649/10
-3. Kaleab Melkamu		      0651/10
-4. Habtemariam Wasihun        0582/10
-5.Hailegeorgis Kindie		  0592/10
-6.KaluSeyoum			      0663/10
+1.Hayelom Kiros		          0609/10 managing
+2.Kaleab Daniel	              0649/10 multiplication
+3.Habtemariam Wasihun        0582/10 addition
+4.Hailegeorgis Kindie		  0592/10 division
+5.KaluSeyoum			      0663/10 substraction
+Note:each group must create branch 
+and and complete their task.i will organize the merging
     */
     float result = 0;
     int choice;
