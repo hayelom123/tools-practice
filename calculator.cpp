@@ -3,10 +3,11 @@ using namespace std;
 
 float number1,number2;
 int main(){
-    /*
-   members name 	                   ID
+/*
+Group 4
+members name 	               ID
 1.Hayelom Kiros		          0609/10
-2. Kaleab Daniel	         0649/10
+2. Kaleab Daniel	          0649/10
 3. Kaleab Melkamu		      0651/10
 4. Habtemariam Wasihun        0582/10
 5.Hailegeorgis Kindie		  0592/10
