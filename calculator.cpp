@@ -19,7 +19,8 @@ int main(){
     cout<< "\nEnter the second number";
     cin>>number2;
     switch(choice){
-        case 1: //addition
+        case 1: result=add(number1,number2);
+                cout<< "sum="<<result;
          break;
          
     }
