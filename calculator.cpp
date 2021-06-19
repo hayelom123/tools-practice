@@ -4,14 +4,13 @@ using namespace std;
 float number1,number2;
 int main(){
     /*
-   name 	                   ID
+   members name 	                   ID
 1.Hayelom Kiros		          0609/10
 2. Kaleab Daniel	         0649/10
 3. Kaleab Melkamu		      0651/10
 4. Habtemariam Wasihun        0582/10
 5.Hailegeorgis Kindie		  0592/10
 6.KaluSeyoum			      0663/10
-
     */
     float result = 0;
     int choice;
