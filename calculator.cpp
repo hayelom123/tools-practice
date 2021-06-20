@@ -30,6 +30,17 @@ and and complete their task.i will organize the merging
     switch(choice){
         case 1: //addition
          break;
+    switch(choice){
+        case 3: //division
+          if(number2==0)
+          {
+             cout<"error can't divide a number with zero";
+              break;
+          }
+          else
+          result=num1/num2;
+          cout<<"The result is:"<<reslut;
+         break;
          
     }
 }
