@@ -2,6 +2,9 @@
 using namespace std;
 
 float number1,number2;
+int remainder(int x,int y){
+	return x%y;
+}
 int main(){
 /*
 Group 4
@@ -31,6 +34,9 @@ and and complete their task.i will organize the merging
     switch(choice){
         case 1: //addition
          break;
+         case 5:
+         	int r = remainder(int(number1),int(number2));
+         	cout<<"result : "<<r<<endl;
          
     }
 }
