@@ -13,6 +13,9 @@ float number1,number2;
 int remainder(int x,int y){
 	return x%y;
 }
+float substraction(float x, float y){
+    return x-y;
+}
 
 float division(float x, float y){
 if(y==0) return -1;
@@ -61,7 +64,11 @@ and and complete their task.i will organize the merging
           result=division(number1,number2);
                 cout<< "result:"<<result<<endl;
          break;
+         case 4:
+         result=substraction(number1,number2);
+             cout<< "result:"<<result<<endl;
 
+             break;
          Case 2:result=multplication( number1,number2 );
            cout<<"result:"<<result;
         break;
