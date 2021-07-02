@@ -2,6 +2,9 @@
 using namespace std;
 
 float number1,number2;
+float multplication(float x,float y){
+return x*y;
+}
 int main(){
 /*
 Group 4
@@ -32,6 +35,7 @@ and and complete their task.i will organize the merging
         case 1: result=add(number1,number2);
                 cout<< "sum="<<result;
          break;
-         
+         Case 2:result=multplication( number1,number2 );
+           cout<<"result:"<<result;
     }
 }
