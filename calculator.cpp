@@ -1,14 +1,10 @@
 #include <iostream>
 using namespace std;
-
+float number1,number2;
 float add(float x, float y){
     // return sum of the two numbers
     return x + y;
 }
-
-
-
-float number1,number2;
 
 int remainder(int x,int y){
 	return x%y;
