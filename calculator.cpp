@@ -36,7 +36,7 @@ and and complete their task.i will organize the merging
         case 1: //addition
          break;
         case 3: //division
-          result=div(number1,number2);
+          result=division(number1,number2);
                 cout<< "result:"<<result<<endl;
          break;
          
