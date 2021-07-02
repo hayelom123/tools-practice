@@ -51,11 +51,10 @@ and and complete their task.i will organize the merging
         case 1: result=add(number1,number2);
                 cout<< "sum="<<result;
          break;
-
-         case 5:
-         	int r = remainder(int(number1),int(number2));
-         	cout<<"result : "<<r<<endl;
-         break;
+      case 2: result=multplication( number1,number2 );
+           cout<<"result:"<<result;
+        break;
+        
         case 3: //division
           result=division(number1,number2);
                 cout<< "result:"<<result<<endl;
@@ -65,9 +64,12 @@ and and complete their task.i will organize the merging
              cout<< "result:"<<result<<endl;
 
              break;
-         Case 2:result=multplication( number1,number2 );
-           cout<<"result:"<<result;
-        break;
+	  case 5:
+         	int r = remainder(int(number1),int(number2));
+         	cout<<"result : "<<r<<endl;
+         break;
+	    default:cout<<"invalid choice"<<endl;
+       
     }
 
 }
