@@ -3,14 +3,17 @@ using namespace std;
 
 float number1,number2;
 
+int remainder(int x,int y){
+	return x%y;
+}
+
 float division(float x, float y){
 if(y==0) return -1;
    else{
       return x/y;
-=======
+   }}
 float multplication(float x,float y){
 return x*y;
-
 }
 int main(){
 /*
@@ -43,6 +46,10 @@ and and complete their task.i will organize the merging
                 cout<< "sum="<<result;
          break;
 
+         case 5:
+         	int r = remainder(int(number1),int(number2));
+         	cout<<"result : "<<r<<endl;
+         break;
         case 3: //division
           result=division(number1,number2);
                 cout<< "result:"<<result<<endl;
