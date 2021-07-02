@@ -29,7 +29,8 @@ and and complete their task.i will organize the merging
     cout<< "\nEnter the second number";
     cin>>number2;
     switch(choice){
-        case 1: //addition
+        case 1: result=add(number1,number2);
+                cout<< "sum="<<result;
          break;
          
     }
