@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 float add(float x, float y){
+    // return sum of the two numbers
     return x + y;
 }
 float number1,number2;
